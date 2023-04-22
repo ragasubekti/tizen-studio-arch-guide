@@ -1,0 +1,31 @@
+--- web-cli_Tizen_Studio_5.1_ubuntu-64.bin	2023-04-23 01:47:28.536722371 +0900
++++ web-cli-tizen.bin	2023-04-23 03:41:15.733530207 +0900
+@@ -2,7 +2,7 @@
+ 
+ INSTALLER_BIT="64"
+ ORI_FILE_md5sum="b856d060554a467167a017f7ab5c1e02"
+-ORI_FILE_LEN="171"
++ORI_FILE_LEN="175"
+ 
+ TPUT="`which tput`"
+ if test -t 0 -a -t 1 -a -n "$TPUT"; then
+@@ -59,6 +59,8 @@
+ 	INSTALLATION_CHECK="grep zip"
+ elif [ "fedora" = "${OS_NAME}" ]; then
+ 	INSTALLATION_CHECK="procps-ng gettext dbus-libs libcurl expect gtk2 grep zip make libgnome qemu-user webkitgtk libpng12"
++elif [ "arch" = "${OS_NAME}" ]; then
++	INSTALLATION_CHECK="procps-ng gettext dbus curl expect gtk2 grep zip make gnome-desktop2 qemu-user webkitgtk2 libpng12"
+ elif [ "tizen" = "${OS_NAME}" ] ; then
+ 	INSTALLATION_CHECK="procps-ng gettext-tools libdbus libcurl expect libgtk2 grep zip make libgnome2 qemu-linux-user libwebkitgtk2"
+ fi
+@@ -93,7 +95,9 @@
+                 CHECK_FLAG=`dpkg -l ${INPUT_PKG_NAME} 2>/dev/null | grep -e "^ii"`
+         elif [ "fedora" = "${OS_NAME}" ] || [ "tizen" = "${OS_NAME}" ] ; then
+                 CHECK_FLAG=`rpm -qi ${INPUT_PKG_NAME} 2>/dev/null | grep Name`
+-        fi
++        elif [ "arch" = "${OS_NAME}" ] ; then
++		CHECK_FLAG=`pacman -Q ${INPUT_PKG_NAME} 2>/dev/null`
++	fi
+         if [ -z "${CHECK_FLAG}" ] ; then
+                 pkg_list="${pkg_list}\"${INPUT_PKG_NAME}\" "
+         fi
