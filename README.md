@@ -5,7 +5,7 @@ The purpose of this guide is to assist in the installation of Tizen Studio on Ar
 ### How-to
 To install Tizen Studio on Arch Linux, follow the steps below:
 
-1. Download the latest version of the Tizen Studio CLI from the Samsung Developer website.
+1. Download the latest version of the [Tizen Studio CLI](https://developer.tizen.org/development/tizen-studio/download) from the Samsung Developer website.
 2. Install all the necessary dependencies from the patch by running the following command:
 
    ```

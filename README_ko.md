@@ -5,7 +5,7 @@
 ### 설치 방법
 Arch Linux에서 Tizen Studio를 설치하려면 다음 단계를 따르세요:
 
-1. 삼성 개발자 웹 사이트에서 Tizen Studio CLI의 최신 버전을 다운로드하십시오.
+1. 삼성 개발자 웹 사이트에서 [Tizen Studio CLI](https://developer.tizen.org/development/tizen-studio/download)의 최신 버전을 다운로드하십시오.
 2. 아래 명령을 실행하여 패치에서 모든 필요한 종속성을 설치하십시오:
 
    ```

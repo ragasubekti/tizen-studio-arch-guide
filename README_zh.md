@@ -6,7 +6,7 @@
 
 要在Arch Linux上安装Tizen Studio，请按照以下步骤操作：
 
-1. 从Samsung Developer网站下载最新版本的Tizen Studio CLI。
+1. 从Samsung Developer网站下载最新版本的[Tizen Studio CLI](https://developer.tizen.org/development/tizen-studio/download)。
 2. 运行以下命令从补丁中安装所有必要的依赖项：
 
    ```
