@@ -20,6 +20,7 @@ This guide aims to help you install Tizen Studio (CLI, IDE version should techni
    ![](./readme/gnome_desktop2.png)
 
 10. After all of it done, now apply the patch on this repository. 
-   `patch -u -b web-cli_Tizen_Studio_5.1_ubuntu-64.bin -i tizen_studio_cli.patch`
+
+      `patch -u -b web-cli_Tizen_Studio_5.1_ubuntu-64.bin -i tizen_studio_cli.patch`
 
 11. And that's all, now run the executable `./web-cli_Tizen_Studio_5.1_ubuntu-64.bin` and it should install normally.
