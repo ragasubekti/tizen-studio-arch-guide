@@ -1,5 +1,7 @@
 ## Tizen Studio Arch Guide
 
+[🇨🇳 ZH](./README_zh.md) | [🇯🇵 JA](./README_ja.md) | [🇰🇷 KO](./README_ko.md)
+
 The purpose of this guide is to assist in the installation of Tizen Studio on Arch Linux, specifically the CLI version, although the IDE version should technically work as well. The most challenging aspect of installing Tizen Studio on Arch Linux is dealing with outdated dependencies, such as `gnome-doc-util`, which cannot be compiled.
 
 ### How-to
