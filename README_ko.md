@@ -1,6 +1,6 @@
 ## Tizen Studio Arch 가이드
 
-이 가이드의 목적은 Tizen Studio CLI 버전을 설치하는 데 도움을 주는 것입니다. Arch Linux에서 Tizen Studio를 설치하는 가장 어려운 측면은 컴파일할 수 없는 'gnome-doc-util'과 같은 구식 의존성과 관련이 있습니다.
+이 가이드의 목적은 Tizen Studio CLI 버전을 설치하는 데 도움을 주는 것입니다. Arch Linux에서 Tizen Studio를 설치하는 가장 어려운 측면은 컴파일할 수 없는 `gnome-doc-util` 과 같은 구식 의존성과 관련이 있습니다.
 
 ### 설치 방법
 Arch Linux에서 Tizen Studio를 설치하려면 다음 단계를 따르세요:

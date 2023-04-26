@@ -36,3 +36,4 @@ To install Tizen Studio on Arch Linux, follow the steps below:
 10. Finally, run the executable `./web-cli_Tizen_Studio_5.1_ubuntu-64.bin` to complete the installation.
 
 By following these steps, you should be able to install Tizen Studio on Arch Linux successfully.
+

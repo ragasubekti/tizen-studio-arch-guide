@@ -37,3 +37,4 @@ Arch LinuxにTizen Studioをインストールするには、以下の手順に�
 10. 最後に、実行可能ファイル `./web-cli_Tizen_Studio_5.1_ubuntu-64.bin`を実行してインストールを完了します。
 
 これらの手順に従うこと
+
